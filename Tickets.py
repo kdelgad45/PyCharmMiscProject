@@ -1,7 +1,7 @@
 # Create the starting code  
 def get_tickets_purchase():
     # Ask the user on how many tickets they want to buy/
-    number_tickets = input("Hello how many tickets would you like to buy you can only buy at least up to 4 tickets.)?")
+    number_tickets = input("Hello how many tickets would you like to buy you can only buy at least up to 4 tickets.)?") 
     return int(number_tickets)
 
 # Create the ticket selling process
