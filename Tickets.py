@@ -1,3 +1,4 @@
+
 def get_tickets_purchase():
     number_tickets = input("How many tickets would you like to purchase (1-4)?")
     return int(number_tickets)
