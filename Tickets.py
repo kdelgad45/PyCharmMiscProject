@@ -1,10 +1,13 @@
-
+# Create the starting code
 def get_tickets_purchase():
+    # Ask the user on how many tickets they want to buy/
     number_tickets = input("How many tickets would you like to purchase (1-4)?")
     return int(number_tickets)
 
+# Create the ticket selling process
 def sell_tickets():
-    total_tickets = 20
+    # Create variables
+    total_tickets = 10
     remaining_tickets = total_tickets
     total_buyers = 0
     while remaining_tickets > 0:
@@ -25,4 +28,5 @@ def sell_tickets():
 
         print(f"\nAll tickeys have been sold! The total number of buyers are: {total_buyers}.")
 
+# Start the application
 sell_tickets()
