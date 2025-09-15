@@ -1,4 +1,4 @@
-# Create the starting code 
+# Create the starting code  
 def get_tickets_purchase():
     # Ask the user on how many tickets they want to buy/
     number_tickets = input("How many tickets would you like to purchase (1-4)?")
